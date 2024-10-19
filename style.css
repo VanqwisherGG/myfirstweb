@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {
+* {
  font-family: Roboto;
  margin: 0;
  padding: 0;
 }
 
-.top-container {
+.main-container{
+    display: flex;
+    flex-flow: column;
+    height: 900px;
+}
+.container-header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    flex: 4;
+    
 }
 .header {
-    justify-content: space-around;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-links {
@@ -28,3 +35,28 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.container-two {
+    display: flex;
+    flex-flow: column;
+    flex: 4;
+}
+.container-three {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-flow: column;
+    flex: 4;
+}
+.container-four {
+    display: flex;
+    flex-flow: column;
+    flex: 4;
+}
+.container-footer {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    
+}
+
