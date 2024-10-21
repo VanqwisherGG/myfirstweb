@@ -57,6 +57,7 @@
     font-size: 12px;
     font-weight: 600;
     border-style: solid;
+    border-color: transparent;
 }
 
 .hero-text{
@@ -148,12 +149,43 @@
     display: flex;
     flex-flow: column;
     flex: 4;
+    align-items: center;
 }
+
+.blue-box {
+    display: flex;
+    width: 500px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 40px 0;
+    padding: 30px 60px;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+}
+
+.small-text {
+    font-size: 8px;
+    color: #e5e7ebb5;
+}
+
+.right-blue-box {
+    align-self: center;
+}
+
+.right-blue-box .left-card-button {
+    border-color: white;
+    font-size: 12px;
+    border-width: thin;
+}
+
 .container-footer {
     background-color: #1F2937;
     display: flex;
-    flex-flow: column;
     flex: 1;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
+
 
