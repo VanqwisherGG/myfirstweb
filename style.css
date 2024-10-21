@@ -90,7 +90,7 @@
 .images-container {
     font-size: 12px;
     display: flex;
-    gap: 15px;
+    gap: 35px;
 }
 
 .box {
@@ -100,6 +100,7 @@
     align-items: center;
     max-width: 120px;
     font-size: 12px;
+    gap: 6px;
 }
 
 .image-box {
@@ -107,6 +108,13 @@
     border-style: solid;
     padding: 50px;
     border-radius: 8px;
+}
+
+.text-box {
+    font-size: 12px;
+    max-width: 110px;
+    text-align: center;
+    
 }
 
 .container-three {
