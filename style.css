@@ -40,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    gap: 20px;
 }
 
 .left-card {
@@ -123,6 +124,26 @@
     flex-flow: column;
     flex: 4;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 8em;
+    gap: 8px;
+}
+.paragraph {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 26px;
+    color: #1f2937;
+}
+
+.sign {
+    font-weight: 800;
+    align-self: flex-end;
+    margin-right: 12px;
+}
+
 .container-four {
     display: flex;
     flex-flow: column;
