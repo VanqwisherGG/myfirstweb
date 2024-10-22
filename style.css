@@ -8,7 +8,6 @@
 .main-container{
     display: flex;
     flex-flow: column;
-    height: 900px;
 }
 .container-header {
     display: flex;
@@ -16,31 +15,37 @@
     background-color: #1F2937;
     color: white;
     flex: 4;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 7em;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 1em;
 }
 
 .header-links {
     display: flex;
     gap: 8px;
     align-items:  center;
+    
+}
+
+.Logo{
+    font-size: 16px;
+    font-weight: 800;
 }
 .header ,li {
     list-style-type: none;
+    font-size: 10px;
 }
 
 .card {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-    gap: 20px;
+    gap: 2em;
+    margin: 4.5em 0;
+    max-height: 15em;
 }
 
 .left-card {
@@ -51,20 +56,20 @@
 .left-card-button {
     background-color: #3882f6;
     color: white;
-    padding: 4px 16px;
-    border-radius: 8px;
+    padding: 2px 20px;
+    border-radius: 5px;
     align-self: flex-start;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     border-style: solid;
     border-color: transparent;
 }
 
 .hero-text{
-    margin: 8px 0;
+    margin-bottom: 6px;
 }
 .hero-text, .header-links {
-    font-size: 12px;
+    font-size: 11px;
     color: #e5e7ebb5;
 }
 
@@ -73,7 +78,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
     flex: 1;
 }
 
@@ -85,7 +89,7 @@
     flex-flow: column;
     flex: 4;
     align-items: center;
-    margin: 50px 60px;
+    margin: 0px 60px;
     gap: 30px;
 }
 
@@ -186,6 +190,9 @@
     color: white;
     justify-content: center;
     align-items: center;
+    padding: 2em;
+    font-size: 10px;
+    font-weight: lighter;
 }
 
 
