@@ -14,14 +14,15 @@
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    flex: 4;
-    padding: 0 7em;
+    padding: 0 30em;
+    height: 350px;
+    
+    
 }
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 1em;
+    padding-top: 8px;
 }
 
 .header-links {
@@ -42,34 +43,40 @@
 
 .card {
     display: flex;
-    justify-content: space-between;
     gap: 2em;
     margin: 4.5em 0;
-    max-height: 15em;
+    justify-content: space-between;
 }
 
 .left-card {
     display: flex;
     flex-flow: column;
-    flex: 1;
+    height: 160px;
+    width: 280px;
 }
+.left-card, h {
+    font-size: 18px;
+}
+
 .left-card-button {
     background-color: #3882f6;
     color: white;
-    padding: 2px 20px;
+    padding: 2px 15px;
     border-radius: 5px;
     align-self: flex-start;
     font-size: 12px;
     font-weight: 500;
     border-style: solid;
     border-color: transparent;
+    flex: 1;
 }
 
 .hero-text{
     margin-bottom: 6px;
 }
+
 .hero-text, .header-links {
-    font-size: 11px;
+    font-size: 12px;
     color: #e5e7ebb5;
 }
 
@@ -78,7 +85,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    height: 160px;
+    width: 350px;
 }
 
 
@@ -87,7 +95,7 @@
 .container-two {
     display: flex;
     flex-flow: column;
-    flex: 4;
+    flex: 1;
     align-items: center;
     margin: 0px 60px;
     gap: 30px;
@@ -127,7 +135,7 @@
     background-color: #E5E7Eb;
     display: flex;
     flex-flow: column;
-    flex: 4;
+    flex: 2;
 }
 
 .text-container {
@@ -152,7 +160,7 @@
 .container-four {
     display: flex;
     flex-flow: column;
-    flex: 4;
+    flex: 1;
     align-items: center;
 }
 
@@ -186,7 +194,7 @@
 .container-footer {
     background-color: #1F2937;
     display: flex;
-    flex: 1;
+    height: 50px;
     color: white;
     justify-content: center;
     align-items: center;
