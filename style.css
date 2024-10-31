@@ -5,24 +5,30 @@
  padding: 0;
 }
 
-.main-container{
+body {
     display: flex;
     flex-flow: column;
+    height: 1500px;
 }
-.container-header {
+.container-top {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    padding: 0 30em;
     height: 350px;
-    
-    
+    align-items: center;
+    flex: 4;
 }
+
+.header-and-card {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
     padding-top: 8px;
+    justify-content: space-between;
 }
 
 .header-links {
@@ -31,6 +37,8 @@
     align-items:  center;
     
 }
+
+
 
 .Logo{
     font-size: 16px;
@@ -45,7 +53,8 @@
     display: flex;
     gap: 2em;
     margin: 4.5em 0;
-    justify-content: space-between;
+    align-items: center;
+    flex: 1;
 }
 
 .left-card {
@@ -95,16 +104,20 @@
 .container-two {
     display: flex;
     flex-flow: column;
-    flex: 1;
     align-items: center;
-    margin: 0px 60px;
-    gap: 30px;
-}
+    justify-content: center;
+    height: 350px;
+    padding-top: 30px;
+    flex: 4;
+}   
+
+
 
 .images-container {
     font-size: 12px;
     display: flex;
     gap: 35px;
+    flex: 1;
 }
 
 .box {
@@ -135,33 +148,38 @@
     background-color: #E5E7Eb;
     display: flex;
     flex-flow: column;
-    flex: 2;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
-    margin: 4em 8em;
     gap: 8px;
+    width: 700px;
 }
 .paragraph {
     font-style: italic;
     font-weight: lighter;
     font-size: 26px;
     color: #1f2937;
+    text-align: center;
 }
 
 .sign {
     font-weight: 800;
     align-self: flex-end;
-    margin-right: 12px;
+    margin-right: 25px;
 }
 
 .container-four {
     display: flex;
     flex-flow: column;
-    flex: 1;
+    flex: 5;
     align-items: center;
+    justify-content: center;
 }
 
 .blue-box {
@@ -169,7 +187,6 @@
     width: 500px;
     background-color: #3882f6;
     border-radius: 8px;
-    margin: 40px 0;
     padding: 30px 60px;
     justify-content: space-between;
     gap: 30px;
@@ -194,13 +211,14 @@
 .container-footer {
     background-color: #1F2937;
     display: flex;
-    height: 50px;
+    height: 40px;
     color: white;
     justify-content: center;
     align-items: center;
     padding: 2em;
     font-size: 10px;
     font-weight: lighter;
+    flex: 1;
 }
 
 
