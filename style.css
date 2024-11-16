@@ -23,11 +23,12 @@ body {
 .header-and-card {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
     display: flex;
-    padding-top: 8px;
+    padding-top: 12px;
     justify-content: space-between;
 }
 
@@ -78,6 +79,10 @@ body {
     border-style: solid;
     border-color: transparent;
     flex: 1;
+    transition-duration: 0.4s;
+}
+.left-card-button:hover {
+    background-color:#3881f6a9;
 }
 
 .hero-text{
@@ -107,10 +112,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 350px;
-    padding-top: 30px;
     flex: 4;
 }   
 
+.container-two h2 {
+    padding-top: 20px;
+}
 
 
 .images-container {
@@ -159,6 +166,8 @@ body {
     flex-direction: column;
     gap: 8px;
     width: 700px;
+    flex: 1;
+    justify-content: center;
 }
 .paragraph {
     font-style: italic;
@@ -176,8 +185,7 @@ body {
 
 .container-four {
     display: flex;
-    flex-flow: column;
-    flex: 5;
+    flex: 3;
     align-items: center;
     justify-content: center;
 }
@@ -185,12 +193,18 @@ body {
 .blue-box {
     display: flex;
     width: 500px;
+    height: 20px;
     background-color: #3882f6;
     border-radius: 8px;
     padding: 30px 60px;
     justify-content: space-between;
-    gap: 30px;
+    align-items: center;
     color: white;
+}
+
+.blue-box .left-card-button:hover{
+    transition-duration: 0.4s;
+    background-color: #689df2;
 }
 
 .small-text {
@@ -215,7 +229,7 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    
     font-size: 10px;
     font-weight: lighter;
     flex: 1;
